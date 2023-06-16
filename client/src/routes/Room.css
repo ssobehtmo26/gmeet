@@ -1,0 +1,65 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: 20%;
+    justify-content: center;
+}
+
+.Controls {
+    display: flex;
+    margin: 3px;
+  padding: 5px;
+  height: 27px;
+  width: 98%;
+  margin-top: -8.5vh;
+  filter: brightness(1);
+  z-index: 1;
+  border-radius: 6px;
+  flex: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ControlSmall {
+    margin: 3px;
+  padding: 5px;
+  height: 16px;
+  width: 98%;
+  margin-top: -6vh;
+  filter: brightness(1);
+  z-index: 1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.ImgComponent {
+    display: flex;
+    cursor: pointer;
+    height: 25px;
+    align-items: center;
+    width: fit-content;
+    margin-top: 6px;
+}
+
+.ImgComponentSmall {
+    height: 15px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.StyledVideo {
+    width: 95%;
+  position: static;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name{
+    justify-self: end;
+    font-size: medium;
+}
